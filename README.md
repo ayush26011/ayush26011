@@ -41,8 +41,13 @@
 </div>
 
 ---
+<div align="center">
 
-## ## 👋 About Me
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=800&lines=Building+AI+Products+that+Solve+Real+Problems;Designing+Scalable+Backend+Systems;Researching+Machine+Learning+Applications;Turning+Ideas+into+Production+Ready+Solutions;Always+Learning+Always+Building+🚀)](https://git.io/typing-svg)
+
+</div>
+
+👋 About Me
 
 ```yaml
 name: Ayush Tiwari
@@ -84,7 +89,7 @@ philosophy: >
 current_status: "Learning, Building, Researching, Shipping 🚀"
 ```
 
-### 🚀 What Drives Me?
+ What Drives Me?
 
 I love working on problems where **intelligence meets engineering**.
 
