@@ -37,17 +37,32 @@
 <div align="center">
   <img src="Assets/output.gif" width="85%" alt="Ayush Tiwari — AI/ML Portfolio Showcase" />
   <br/>
-  
+  <sub><i>↑ Stored at <code>Assets/output.gif</code></i></sub>
 </div>
 
 ---
+
+<!-- HUD SECTION DIVIDER (animated SVG — store at Assets/divider.svg) -->
+<div align="center">
+  <img src="Assets/divider.svg" width="100%" alt=""/>
+</div>
+
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=800&lines=Building+AI+Products+that+Solve+Real+Problems;Designing+Scalable+Backend+Systems;Researching+Machine+Learning+Applications;Turning+Ideas+into+Production+Ready+Solutions;Always+Learning+Always+Building+🚀)](https://git.io/typing-svg)
 
 </div>
 
-👋 About Me
+---
+
+## 👋 About Me
+
+<!-- HUD HEADER BANNER (animated SVG — store at Assets/hud_header.svg) -->
+<div align="center">
+  <img src="Assets/hud_header.svg" width="100%" alt="System Profile HUD"/>
+</div>
+
+<br/>
 
 ```yaml
 name: Ayush Tiwari
@@ -89,7 +104,7 @@ philosophy: >
 current_status: "Learning, Building, Researching, Shipping 🚀"
 ```
 
- What Drives Me?
+### 💡 What Drives Me?
 
 I love working on problems where **intelligence meets engineering**.
 
@@ -113,13 +128,17 @@ When I'm not coding, you'll probably find me:
 
 ### ⚡ Engineering Mindset
 
+<!-- ANIMATED PIPELINE SVG — store at Assets/pipeline.svg -->
+<div align="center">
+  <img src="Assets/pipeline.svg" width="100%" alt="Research → Prototype → Optimize → Scale → Impact"/>
+</div>
+
 ```text
 Research → Prototype → Optimize → Scale → Impact
 ```
 
 I believe great products are built when strong engineering,
 continuous learning, and user-centric thinking come together.
-
 
 <details>
 <summary><b>🏆 Career Highlights</b></summary>
@@ -139,6 +158,11 @@ continuous learning, and user-centric thinking come together.
 
 ---
 
+<!-- DIVIDER -->
+<div align="center">
+  <img src="Assets/divider.svg" width="100%" alt=""/>
+</div>
+
 ## 🔭 Currently Working On
 
 - 🧠 Advanced RAG pipelines and Vector DB-backed LLM apps
@@ -154,21 +178,33 @@ continuous learning, and user-centric thinking come together.
 
 ---
 
+<!-- DIVIDER -->
+<div align="center">
+  <img src="Assets/divider.svg" width="100%" alt=""/>
+</div>
+
 ## 🛠️ Tech Stack
 
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=2000&color=A78BFA&center=true&vCenter=true&width=600&lines=⚙️+Backend+%7C+🖥️+Frontend+%7C+🤖+AI%2FML+%7C+🗄️+Databases+%7C+☁️+Cloud)](https://git.io/typing-svg)
+
+</div>
+
 ### ⚙️ Backend
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask,nodejs,express" />
 </p>
 
 ### 🖥️ Frontend
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,redux" />
 </p>
 
 ### 🤖 AI / ML
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=tensorflow,opencv,sklearn" />
+  <br/>
   <img src="https://img.shields.io/badge/XGBoost-F6C90E?style=for-the-badge&logo=xgboost&logoColor=black" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
@@ -177,23 +213,34 @@ continuous learning, and user-centric thinking come together.
 </p>
 
 ### 🗄️ Databases
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,firebase,redis" />
 </p>
 
 ### ☁️ Cloud & DevOps
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=aws,gcp,docker,githubactions,linux,vercel" />
 </p>
 
 ### 🔧 Tools
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=git,vscode,postman,figma,firebase" />
 </p>
 
 ---
 
+<!-- DIVIDER -->
+<div align="center">
+  <img src="Assets/divider.svg" width="100%" alt=""/>
+</div>
+
 ## 🚀 Featured Projects
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=3000&color=A78BFA&center=true&vCenter=true&width=700&lines=🤟+SignSetu+%7C+UHack+4.0+Winner+%7C+91%25+Accuracy;🏛️+QuickSeva+%7C+Google+Build+with+AI+Winner+%7C+LLM;🌿+Aarogyam+%7C+Mental+Wellness+%7C+100%2B+Users;💼+Prodesk+IT+%7C+30%25+API+Latency+Reduction)](https://git.io/typing-svg)
+
+</div>
 
 <table>
 <tr>
@@ -273,7 +320,19 @@ continuous learning, and user-centric thinking come together.
 
 ---
 
+<!-- DIVIDER -->
+<div align="center">
+  <img src="Assets/divider.svg" width="100%" alt=""/>
+</div>
+
 ## 📄 Research Publication
+
+<!-- ANIMATED RESEARCH BANNER (store at Assets/research_banner.svg) -->
+<div align="center">
+  <img src="Assets/research_banner.svg" width="100%" alt="Research Publication Dashboard"/>
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -297,7 +356,19 @@ continuous learning, and user-centric thinking come together.
 
 ---
 
+<!-- DIVIDER -->
+<div align="center">
+  <img src="Assets/divider.svg" width="100%" alt=""/>
+</div>
+
 ## 📊 GitHub Analytics
+
+<!-- ANIMATED ANALYTICS HUD (store at Assets/analytics_hud.svg) -->
+<div align="center">
+  <img src="Assets/analytics_hud.svg" width="100%" alt="Telemetry Dashboard"/>
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -312,11 +383,28 @@ continuous learning, and user-centric thinking come together.
 
 <img src="https://github-profile-trophy.vercel.app/?username=ayush26011&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
 
+<br/><br/>
+
+<!-- ACTIVITY GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayush26011&bg_color=0d1117&color=a78bfa&line=7c3aed&point=c4b5fd&area=true&hide_border=true" width="95%" alt="Contribution Activity Graph"/>
+
 </div>
 
 ---
 
+<!-- DIVIDER -->
+<div align="center">
+  <img src="Assets/divider.svg" width="100%" alt=""/>
+</div>
+
 ## 🤝 Open Source & Community
+
+<!-- ANIMATED COMMUNITY NETWORK (store at Assets/community_network.svg) -->
+<div align="center">
+  <img src="Assets/community_network.svg" width="100%" alt="Community Ecosystem Network"/>
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -334,18 +422,41 @@ continuous learning, and user-centric thinking come together.
 
 ---
 
+<!-- DIVIDER -->
+<div align="center">
+  <img src="Assets/divider.svg" width="100%" alt=""/>
+</div>
+
 ## 🐍 Contribution Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ayush26011/ayush26011/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
 
+<<<<<<< HEAD
+=======
+<!-- HOLOGRAPHIC FRAME via capsule-render -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,100:1e1b4b&height=4&section=header" width="95%"/>
+
+<br/>
+
+  <img src="https://raw.githubusercontent.com/ayush26011/ayush26011/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="95%"/>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e1b4b,100:0f0c29&height=4&section=footer" width="95%"/>
+
+</div>
+>>>>>>> 9d5c2ec (add snake workflow)
 
 ---
 
 <div align="center">
 
-*"The best engineers don't just write code — they architect clarity, encode intent, and ship systems that outlive the sprint."*
+<!-- CAPSULE RENDER SLICE DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0f0c29,50:302b63,100:24243e&height=60&section=header&reversal=true" width="100%"/>
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=4000&color=A78BFA&center=true&vCenter=true&width=800&lines=%22The+best+engineers+don%27t+just+write+code+—+they+architect+clarity%22;%22encode+intent%2C+and+ship+systems+that+outlive+the+sprint.%22)](https://git.io/typing-svg)
 
 <br/>
 
