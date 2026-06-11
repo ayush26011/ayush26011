@@ -42,25 +42,79 @@
 
 ---
 
-## 👋 About Me
+## ## 👋 About Me
 
 ```yaml
 name: Ayush Tiwari
-role: AI/ML Engineer · Full Stack Developer · Backend Engineer
-education:
-  degree: B.Tech in Artificial Intelligence & Machine Learning (Final Year)
-  university: United University, Prayagraj
-  cgpa: 8.0 / 10.0
-location: Prayagraj, Uttar Pradesh, India
-currently:
+
+title:
+  - AI/ML Engineer
+  - Backend Architect
+  - Full Stack Developer
+
+location: Prayagraj, Uttar Pradesh 🇮🇳
+
+currently_building:
+  - LLM-powered assistants with RAG & Vector Databases
+  - Real-time Computer Vision systems
+  - Scalable Backend APIs with FastAPI & Django
+  - AI products solving accessibility & civic challenges
+
+experience:
   - Backend Development Intern @ Prodesk IT
-  - Publishing AI/ML Research (Elsevier Procedia)
-  - Building LLM-powered civic & accessibility products
+  - Elsevier Published Research Author
+  - 2× National Hackathon Winner
+
 mission: >
-  I build systems at the intersection of intelligent algorithms and production-grade
-  engineering — from real-time computer vision pipelines to LLM-powered assistants,
-  always optimizing for accuracy, latency, and real-world impact.
+  Transform ambitious ideas into intelligent systems that people
+  actually use. I enjoy building products where Machine Learning,
+  Software Engineering, and Human Impact intersect.
+
+fun_fact:
+  - Trained ML models on 175K+ records
+  - Built production APIs serving real-world applications
+  - Won hackathons by shipping prototypes in under 24 hours
+  - Love turning research papers into deployable products
+
+philosophy: >
+  AI is only valuable when it solves a real problem.
+  My focus is not just building models — it's building systems
+  that are scalable, reliable, and useful.
+
+current_status: "Learning, Building, Researching, Shipping 🚀"
 ```
+
+### 🚀 What Drives Me?
+
+I love working on problems where **intelligence meets engineering**.
+
+Whether it's:
+
+* 🤟 Building a sign-language translator for accessibility
+* 🏛️ Creating AI assistants for public services
+* 🧠 Designing LLM-powered applications
+* ⚡ Optimizing backend systems for scale
+
+My goal remains the same:
+
+> **Build technology that creates measurable impact, not just impressive demos.**
+
+When I'm not coding, you'll probably find me:
+
+* 📚 Reading AI research papers
+* 🏆 Participating in hackathons
+* 🎤 Organizing tech communities & events
+* 🔬 Experimenting with new AI tools and frameworks
+
+### ⚡ Engineering Mindset
+
+```text
+Research → Prototype → Optimize → Scale → Impact
+```
+
+I believe great products are built when strong engineering,
+continuous learning, and user-centric thinking come together.
+
 
 <details>
 <summary><b>🏆 Career Highlights</b></summary>
