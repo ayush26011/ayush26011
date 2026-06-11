@@ -326,7 +326,9 @@ continuous learning, and user-centric thinking come together.
 | 🟢 **FOSS Prayagraj** | Contributor |
 | 🎤 **TEDx United University** | Organizer |
 | 📖 **WikiClub UU** | Social Media Head |
-| 🚀 **HackDiwas 3.0** | Co-Lead Organizer |
+| 🚀 **HackDiwas 3.0** | Lead Organizer |
+| 💡 **HackDiwas 2.0** | Organizer |
+| 🎯 **Prerogative Pointers** | Executive Member |
 
 </div>
 
@@ -338,7 +340,9 @@ continuous learning, and user-centric thinking come together.
   <img src="https://raw.githubusercontent.com/ayush26011/ayush26011/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
-> ⚙️ *To enable the snake, add a GitHub Actions workflow at `.github/workflows/snake.yml` using [Platane/snk](https://github.com/Platane/snk).*
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ayush26011/ayush26011/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+</div>
 
 ---
 
