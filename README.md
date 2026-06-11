@@ -37,7 +37,7 @@
 <div align="center">
   <img src="Assets/output.gif" width="85%" alt="Ayush Tiwari — AI/ML Portfolio Showcase" />
   <br/>
-  <sub><i>↑ Project demo GIF — stored at <code>Assets/output.gif</code> in this repository</i></sub>
+  
 </div>
 
 ---
