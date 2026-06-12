@@ -1,0 +1,41 @@
+<svg viewBox="0 0 900 60" xmlns="http://www.w3.org/2000/svg" width="900" height="60">
+  <defs>
+    <filter id="gHUD">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="hudGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#a78bfa;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="60" fill="#0d1117"/>
+  <!-- Top bracket left -->
+  <polyline points="10,50 10,10 60,10" fill="none" stroke="#a78bfa" stroke-width="2" filter="url(#gHUD)">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </polyline>
+  <!-- Top bracket right -->
+  <polyline points="890,50 890,10 840,10" fill="none" stroke="#a78bfa" stroke-width="2" filter="url(#gHUD)">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </polyline>
+  <!-- Gradient fill behind text area -->
+  <rect x="60" y="10" width="400" height="4" fill="url(#hudGrad)">
+    <animate attributeName="width" values="0;400;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Label -->
+  <text x="450" y="42" text-anchor="middle" font-family="'Fira Code', monospace" font-size="18" font-weight="700" fill="#a78bfa" filter="url(#gHUD)">[ SYSTEM PROFILE — AYUSH TIWARI ]</text>
+  <!-- Blinking cursor -->
+  <rect x="746" y="26" width="10" height="20" fill="#a78bfa">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Bottom line -->
+  <line x1="10" y1="54" x2="890" y2="54" stroke="#1e1b4b" stroke-width="1"/>
+  <!-- Animated status dot -->
+  <circle cx="22" cy="54" r="4" fill="#22c55e" filter="url(#gHUD)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="32" y="57" font-family="'Fira Code', monospace" font-size="9" fill="#4ade80">ONLINE</text>
+  <!-- Right status -->
+  <text x="860" y="57" text-anchor="end" font-family="'Fira Code', monospace" font-size="9" fill="#a78bfa">v2.0.26 ◈</text>
+</svg>

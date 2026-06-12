@@ -1,0 +1,33 @@
+<svg viewBox="0 0 900 70" xmlns="http://www.w3.org/2000/svg" width="900" height="70">
+  <defs>
+    <filter id="gA">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="70" fill="#0d1117"/>
+  <!-- Outer border -->
+  <rect x="1" y="1" width="898" height="68" rx="8" fill="none" stroke="#1e1b4b" stroke-width="1"/>
+  <!-- Top accent -->
+  <rect x="1" y="1" width="898" height="2" rx="1" fill="#a78bfa" opacity="0.4"/>
+  <!-- Left bracket -->
+  <polyline points="15,55 15,15 55,15" fill="none" stroke="#a78bfa" stroke-width="2" filter="url(#gA)">
+    <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
+  </polyline>
+  <!-- Right bracket -->
+  <polyline points="885,55 885,15 845,15" fill="none" stroke="#a78bfa" stroke-width="2" filter="url(#gA)">
+    <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" begin="1.25s"/>
+  </polyline>
+  <!-- Center title -->
+  <text x="450" y="35" text-anchor="middle" font-family="'Fira Code', monospace" font-size="16" font-weight="700" fill="#a78bfa" filter="url(#gA)">◈ TELEMETRY DASHBOARD ◈</text>
+  <text x="450" y="55" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9" fill="#4b5563">LIVE GITHUB METRICS — ayush26011</text>
+  <!-- Status indicators -->
+  <circle cx="25" cy="55" r="4" fill="#22c55e" filter="url(#gA)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="35" y="58" font-family="'Fira Code', monospace" font-size="8" fill="#4ade80">LIVE</text>
+  <circle cx="860" cy="55" r="4" fill="#3b82f6" filter="url(#gA)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="850" y="58" text-anchor="end" font-family="'Fira Code', monospace" font-size="8" fill="#60a5fa">SYNC</text>
+</svg>

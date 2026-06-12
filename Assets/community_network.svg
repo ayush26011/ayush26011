@@ -1,0 +1,99 @@
+<svg viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg" width="900" height="120">
+  <defs>
+    <filter id="gN">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="nodeGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="120" fill="#0d1117" rx="10"/>
+
+  <!-- Connection lines between nodes -->
+  <line x1="450" y1="60" x2="120" y2="40" stroke="#4c1d95" stroke-width="1" stroke-dasharray="4,4">
+    <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite" begin="0s"/>
+  </line>
+  <line x1="450" y1="60" x2="230" y2="90" stroke="#4c1d95" stroke-width="1" stroke-dasharray="4,4">
+    <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+  </line>
+  <line x1="450" y1="60" x2="660" y2="35" stroke="#4c1d95" stroke-width="1" stroke-dasharray="4,4">
+    <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+  </line>
+  <line x1="450" y1="60" x2="770" y2="85" stroke="#4c1d95" stroke-width="1" stroke-dasharray="4,4">
+    <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+  </line>
+  <line x1="450" y1="60" x2="350" y2="95" stroke="#4c1d95" stroke-width="1" stroke-dasharray="4,4">
+    <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+  </line>
+  <line x1="450" y1="60" x2="570" y2="100" stroke="#4c1d95" stroke-width="1" stroke-dasharray="4,4">
+    <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+  </line>
+
+  <!-- Center node (Ayush) -->
+  <circle cx="450" cy="60" r="22" fill="url(#nodeGrad)" filter="url(#gN)">
+    <animate attributeName="r" values="20;24;20" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="60" r="14" fill="#0f0c29" stroke="#a78bfa" stroke-width="2"/>
+  <text x="450" y="64" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" fill="#c4b5fd" font-weight="700">AYUSH</text>
+
+  <!-- GDG node -->
+  <circle cx="120" cy="40" r="12" fill="#0f0c29" stroke="#ef4444" stroke-width="1.5" filter="url(#gN)">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <text x="120" y="38" text-anchor="middle" font-family="monospace" font-size="8" fill="#fca5a5">GDG</text>
+  <text x="120" y="48" text-anchor="middle" font-family="monospace" font-size="7" fill="#6b7280">Prayagraj</text>
+
+  <!-- FOSS node -->
+  <circle cx="230" cy="90" r="12" fill="#0f0c29" stroke="#22c55e" stroke-width="1.5" filter="url(#gN)">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <text x="230" y="88" text-anchor="middle" font-family="monospace" font-size="8" fill="#86efac">FOSS</text>
+  <text x="230" y="98" text-anchor="middle" font-family="monospace" font-size="7" fill="#6b7280">Prayagraj</text>
+
+  <!-- TEDx node -->
+  <circle cx="350" cy="95" r="12" fill="#0f0c29" stroke="#f97316" stroke-width="1.5" filter="url(#gN)">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+  <text x="350" y="93" text-anchor="middle" font-family="monospace" font-size="8" fill="#fdba74">TEDx</text>
+  <text x="350" y="103" text-anchor="middle" font-family="monospace" font-size="7" fill="#6b7280">Organizer</text>
+
+  <!-- WikiClub node -->
+  <circle cx="660" cy="35" r="12" fill="#0f0c29" stroke="#3b82f6" stroke-width="1.5" filter="url(#gN)">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" begin="0.9s"/>
+  </circle>
+  <text x="660" y="33" text-anchor="middle" font-family="monospace" font-size="7" fill="#93c5fd">WikiClub</text>
+  <text x="660" y="43" text-anchor="middle" font-family="monospace" font-size="7" fill="#6b7280">Soc. Head</text>
+
+  <!-- HackDiwas node -->
+  <circle cx="570" cy="100" r="12" fill="#0f0c29" stroke="#a78bfa" stroke-width="1.5" filter="url(#gN)">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" begin="1.2s"/>
+  </circle>
+  <text x="570" y="98" text-anchor="middle" font-family="monospace" font-size="7" fill="#c4b5fd">HackDiwas</text>
+  <text x="570" y="108" text-anchor="middle" font-family="monospace" font-size="7" fill="#6b7280">Co-Lead</text>
+
+  <!-- Prerogative Pointers node -->
+  <circle cx="770" cy="85" r="12" fill="#0f0c29" stroke="#ec4899" stroke-width="1.5" filter="url(#gN)">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <text x="770" y="83" text-anchor="middle" font-family="monospace" font-size="7" fill="#f9a8d4">Prerog.</text>
+  <text x="770" y="93" text-anchor="middle" font-family="monospace" font-size="7" fill="#6b7280">Exec. Mem.</text>
+
+  <!-- Traveling pulses along connections -->
+  <circle r="4" fill="#a78bfa" opacity="0.8" filter="url(#gN)">
+    <animateMotion dur="1.5s" repeatCount="indefinite" begin="0s">
+      <mpath><path d="M 450,60 L 120,40"/></mpath>
+    </animateMotion>
+  </circle>
+  <circle r="4" fill="#22c55e" opacity="0.8" filter="url(#gN)">
+    <animateMotion dur="1.5s" repeatCount="indefinite" begin="0.5s">
+      <mpath><path d="M 450,60 L 230,90"/></mpath>
+    </animateMotion>
+  </circle>
+  <circle r="4" fill="#3b82f6" opacity="0.8" filter="url(#gN)">
+    <animateMotion dur="1.5s" repeatCount="indefinite" begin="1s">
+      <mpath><path d="M 450,60 L 660,35"/></mpath>
+    </animateMotion>
+  </circle>
+</svg>
