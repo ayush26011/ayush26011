@@ -431,8 +431,7 @@ continuous learning, and user-centric thinking come together.
 
 <div align="center">
 
-<<<<<<< HEAD
-=======
+
 <!-- HOLOGRAPHIC FRAME via capsule-render -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,100:1e1b4b&height=4&section=header" width="95%"/>
 
@@ -445,7 +444,7 @@ continuous learning, and user-centric thinking come together.
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e1b4b,100:0f0c29&height=4&section=footer" width="95%"/>
 
 </div>
->>>>>>> 9d5c2ec (add snake workflow)
+
 
 ---
 
